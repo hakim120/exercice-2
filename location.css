@@ -1,0 +1,159 @@
+body{
+    background-color :white;
+    padding : 0;
+    margin : 0;
+    font-family:sans-serif;
+    }
+    
+    #menufond{
+    width: 100%;
+    background: linear-gradient(#7cb7ff, #1b81ff);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2),
+                0px 1px 0px 1px rgba(255, 255, 255, 0s.5) inset,
+                0px -3px 0px 1px rgba(0, 0, 0, 0.1) inset;
+    overflow : hidden;
+    height : 50px;
+    }
+    
+    #menu{
+        font-family: "Trebuchet MS";
+        display: table;
+        margin-right : auto;
+        margin-left : auto;
+        margin-top : 0;
+        padding : 0;
+        
+    }
+    
+    #menu li{
+        display: table-cell;
+        width: 180px;
+        transition:1s;
+    }
+    
+    #menu li:hover{
+        width:190px;
+        transition:1s;
+    }
+    
+    #menu a{
+        display: block;
+        line-height: 46px;
+        text-align: center;
+        text-decoration : none;
+        color : white;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+        transition : text-shadow,color 1s;
+        position:relative;  /* utilse pour l'affichage du point */
+        
+    }
+    
+    #menu a:hover{
+        background: rgba(255,255,255,0.1);
+        border-bottom: solid 4px rgba(255,255,255,0.8);
+        color : #373737;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+        transition : text-shadow,color 1s;
+    }
+    
+    #menu a::before{
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 5px;
+        transition:1s;
+        width: 0;
+        height: 0;
+        border-left: 3px solid transparent;
+        border-right: 3px solid transparent;
+        border-top: 5px solid rgba(0,0,0,0.2);
+    }
+    
+    #menu a:hover::before{
+        border-color: rgba(255, 255, 255, 0.5) transparent transparent;
+        box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+        transition:1s
+    }
+    .bg-img {
+        /* The image used */
+        background-image: url("jugar.jpg");
+      
+        min-height: 600px;
+      
+        background-size:100% 100%;
+      
+      }
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 5rem;
+    margin-bottom: 2rem;
+    color:black;
+   
+   
+      }
+    
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 22px;
+      }
+      
+      .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      .card button:hover {
+        opacity: 0.7;
+      }
+      .flex-container {
+        display: flex;
+        background-color: rgb(241, 245, 248);
+        justify-content: space-between;
+      }
+      
+      .flex-container > div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 20px;
+      }
+    
+
+   
+    
+    .flex-container{
+        display: flex;
+        justify-content: space-between;
+      }
+
+      #car{
+     padding-right:10px;
+     padding-left:10px ;
+        width: 100%;
+      }
+      .description-voiture{
+        width:1000px;
+        margin-left: 5px;
+        background-color:whitesmoke;
+        box-shadow: whitesmoke;
+      }
+      

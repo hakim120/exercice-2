@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html class=" desktop landscape" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style>.gm-control-active>img{box-sizing:content-box;display:none;left:50%;pointer-events:none;position:absolute;top:50%;transform:translate(-50%,-50%)}.gm-control-active>img:nth-child(1){display:block}.gm-control-active:hover>img:nth-child(1),.gm-control-active:active>img:nth-child(1){display:none}.gm-control-active:hover>img:nth-child(2),.gm-control-active:active>img:nth-child(3){display:block}
+</style><link type="text/css" rel="stylesheet" href="index-3_data/css_003.css"><style>.gm-ui-hover-effect{opacity:.6}.gm-ui-hover-effect:hover{opacity:1}
+</style><style>.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px;box-sizing:border-box}
+</style><style>@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style>.dismissButton{background-color:#fff;border:1px solid #dadce0;color:#1a73e8;border-radius:4px;font-family:Roboto,sans-serif;font-size:14px;height:36px;cursor:pointer;padding:0 24px}.dismissButton:hover{background-color:rgba(66,133,244,0.04);border:1px solid #d2e3fc}.dismissButton:focus{background-color:rgba(66,133,244,0.12);border:1px solid #d2e3fc;outline:0}.dismissButton:hover:focus{background-color:rgba(66,133,244,0.16);border:1px solid #d2e2fd}.dismissButton:active{background-color:rgba(66,133,244,0.16);border:1px solid #d2e2fd;box-shadow:0 1px 2px 0 rgba(60,64,67,0.3),0 1px 3px 1px rgba(60,64,67,0.15)}.dismissButton:disabled{background-color:#fff;border:1px solid #f1f3f4;color:#3c4043}
+</style><style>.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+</style><style>.gm-style img{max-width: none;}.gm-style {font: 400 11px Roboto, Arial, sans-serif; text-decoration: none;}</style>
+    <title>Cars</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <script type="text/javascript" async="" src="ec.js"></script><script type="text/javascript" async="" src="analytics.js"></script><script async="" src="index-3_data/gtm.js"></script><script src="index-3_data/3ts2ksMwXvKRuG480KNifJ2_JNM.js"></script><script src="index-3_data/4o300efCt-CXoq1JEC-sVReFz48.js"></script><link rel="icon" href="https://livedemo00.template-help.com/wt_57633/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="index-3_data/grid.css">
+    <link rel="stylesheet" href="index-3_data/style.css">
+    <link rel="stylesheet" href="index-3_data/font-awesome.css">
+    <link rel="stylesheet" href="index-3_data/material-icons.css">
+    <link rel="stylesheet" href="index-3_data/owl-carousel.css">
+    <link rel="stylesheet" href="index-3_data/css_002.css">
+    <link rel="stylesheet" href="index-3_data/css.css">
+    <link rel="stylesheet" href="index-3_data/css_004.css">
+    <script src="index-3_data/jquery_002.js"></script><link rel="stylesheet" href="data:text/css;charset=utf-8;base64,Y2xvdWRmbGFyZS1hcHBbYXBwLWlkPSJhLWJldHRlci1icm93c2VyIl0gewogIGRpc3BsYXk6IGJsb2NrOwogIGJhY2tncm91bmQ6ICM0NTQ4NGQ7CiAgY29sb3I6ICNmZmY7CiAgbGluZS1oZWlnaHQ6IDEuNDU7CiAgcG9zaXRpb246IGZpeGVkOwogIHotaW5kZXg6IDkwMDAwMDAwOwogIHRvcDogMDsKICBsZWZ0OiAwOwogIHJpZ2h0OiAwOwogIHBhZGRpbmc6IC41ZW0gMWVtOwogIHRleHQtYWxpZ246IGNlbnRlcjsKICAtd2Via2l0LXVzZXItc2VsZWN0OiBub25lOwogICAgIC1tb3otdXNlci1zZWxlY3Q6IG5vbmU7CiAgICAgIC1tcy11c2VyLXNlbGVjdDogbm9uZTsKICAgICAgICAgIHVzZXItc2VsZWN0OiBub25lOwp9CgpjbG91ZGZsYXJlLWFwcFthcHAtaWQ9ImEtYmV0dGVyLWJyb3dzZXIiXVtkYXRhLXZpc2liaWxpdHk9ImhpZGRlbiJdIHsKICBkaXNwbGF5OiBub25lOwp9CgpjbG91ZGZsYXJlLWFwcFthcHAtaWQ9ImEtYmV0dGVyLWJyb3dzZXIiXSBjbG91ZGZsYXJlLWFwcC1tZXNzYWdlIHsKICBkaXNwbGF5OiBibG9jazsKfQoKY2xvdWRmbGFyZS1hcHBbYXBwLWlkPSJhLWJldHRlci1icm93c2VyIl0gYSB7CiAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7CiAgY29sb3I6ICNlYmViZjQ7Cn0KCmNsb3VkZmxhcmUtYXBwW2FwcC1pZD0iYS1iZXR0ZXItYnJvd3NlciJdIGE6aG92ZXIsCmNsb3VkZmxhcmUtYXBwW2FwcC1pZD0iYS1iZXR0ZXItYnJvd3NlciJdIGE6YWN0aXZlIHsKICBjb2xvcjogI2RiZGJlYjsKfQoKY2xvdWRmbGFyZS1hcHBbYXBwLWlkPSJhLWJldHRlci1icm93c2VyIl0gY2xvdWRmbGFyZS1hcHAtY2xvc2UgewogIGRpc3BsYXk6IGJsb2NrOwogIGN1cnNvcjogcG9pbnRlcjsKICBmb250LXNpemU6IDEuNWVtOwogIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICByaWdodDogLjRlbTsKICB0b3A6IC4zNWVtOwogIGhlaWdodDogMWVtOwogIHdpZHRoOiAxZW07CiAgbGluZS1oZWlnaHQ6IDE7Cn0KCmNsb3VkZmxhcmUtYXBwW2FwcC1pZD0iYS1iZXR0ZXItYnJvd3NlciJdIGNsb3VkZmxhcmUtYXBwLWNsb3NlOmFjdGl2ZSB7CiAgLXdlYmtpdC10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTsKICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpOwp9CgpjbG91ZGZsYXJlLWFwcFthcHAtaWQ9ImEtYmV0dGVyLWJyb3dzZXIiXSBjbG91ZGZsYXJlLWFwcC1jbG9zZTpob3ZlciB7CiAgb3BhY2l0eTogLjllbTsKICBjb2xvcjogI2ZmZjsKfQo=">
+    <script src="index-3_data/jquery-migrate-1.js"></script>
+    <!--[if lt IE 9]>
+    <html class="lt-ie9">
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="https://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <script src="index-3_data/device.js"></script>
+
+<script type="text/javascript" charset="UTF-8" src="index-3_data/common.js"></script><script type="text/javascript" charset="UTF-8" src="index-3_data/util.js"></script><script type="text/javascript" charset="UTF-8" src="index-3_data/map.js"></script><script type="text/javascript" charset="UTF-8" src="index-3_data/marker.js"></script><script type="text/javascript" charset="UTF-8" src="index-3_data/controls.js"></script><script type="text/javascript" charset="UTF-8" src="index-3_data/stats.js"></script><script type="text/javascript" charset="UTF-8" src="index-3_data/onion.js"></script><script type="text/javascript" charset="UTF-8" src="index-3_data/infowindow.js"></script></head>
+<body class=""><div style="display: none;" id="olark"><olark><iframe id="olark-loader" frameborder="0"></iframe></olark></div>
+<div class="page">
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+    <header class="mod-1">
+        <div id="stuck_container" class="stuck_container">
+            <div class="container-fluid container-inset">
+                <div class="rd-navbar-brand">
+                    <h2 class="rd-navbar-brand_name">
+                        <a href="https://livedemo00.template-help.com/wt_57633/">&nbsp;car rental</a>
+                    </h2>
+                </div>
+                <nav class="nav uppercase">
+                    <ul class="sf-menu sf-js-enabled sf-arrows" data-type="navbar">
+                        <li><a href="https://livedemo00.template-help.com/wt_57633/">Home</a></li>
+                        <li><a href="https://livedemo00.template-help.com/wt_57633/index-1.html">About</a></li>
+                        <li><a href="https://livedemo00.template-help.com/wt_57633/index-2.html">Services</a></li>
+                        <li class="active"><a href="https://livedemo00.template-help.com/wt_57633/index-3.html" class="sf-with-ul">Cars</a><ul style="display: none;">
+                            <li style="opacity: 0;"><a href="#">Convertibles</a></li>
+                            <li style="opacity: 0;"><a href="#">SUVs</a></li>
+                            <li style="opacity: 0;"><a href="#" class="sf-with-ul">Luxury</a>
+                                <ul style="display: none;">
+                                    <li style="opacity: 0;"><a href="#">Mercedes</a></li>
+                                    <li style="opacity: 0;"><a href="#">Lexus</a></li>
+                                    <li style="opacity: 0;"><a href="#">BMW</a></li>
+                                </ul>
+                            </li>
+                            <li style="opacity: 0;"><a href="#">Exotic</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="https://livedemo00.template-help.com/wt_57633/index-4.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    <div id="stuck_container" class="stuck_container isStuck" style="top: 0px; visibility: visible; position: fixed; width: 100%; margin-top: 0px;">
+            <div class="container-fluid container-inset">
+                <div class="rd-navbar-brand">
+                    <h2 class="rd-navbar-brand_name">
+                        <a href="https://livedemo00.template-help.com/wt_57633/">&nbsp;car rental</a>
+                    </h2>
+                </div>
+                <nav class="nav uppercase">
+                    <ul class="sf-menu sf-js-enabled sf-arrows" data-type="navbar">
+                        <li><a href="https://livedemo00.template-help.com/wt_57633/">Home</a></li>
+                        <li><a href="https://livedemo00.template-help.com/wt_57633/index-1.html">About</a></li>
+                        <li><a href="https://livedemo00.template-help.com/wt_57633/index-2.html">Services</a></li>
+                        <li class="active"><a href="https://livedemo00.template-help.com/wt_57633/index-3.html" class="sf-with-ul">Cars</a><ul style="display: none;">
+                            <li style="opacity: 0;"><a href="#">Convertibles</a></li>
+                            <li style="opacity: 0;"><a href="#">SUVs</a></li>
+                            <li style="opacity: 0;"><a href="#" class="sf-with-ul">Luxury</a>
+                                <ul style="display: none;">
+                                    <li style="opacity: 0;"><a href="#">Mercedes</a></li>
+                                    <li style="opacity: 0;"><a href="#">Lexus</a></li>
+                                    <li style="opacity: 0;"><a href="#">BMW</a></li>
+                                </ul>
+                            </li>
+                            <li style="opacity: 0;"><a href="#">Exotic</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="https://livedemo00.template-help.com/wt_57633/index-4.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div></header>
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+    <main>
+        <!--Our cars-->
+        <section class="text-center">
+            <div class="container-fluid container-inset marker well-md bg-aside bg-aside-right">
+                <div class="row">
+                    <div class="col-md-6 col-lg-5 text-md-left">
+                        <h2>Our cars</h2>
+                        <h4 class="uppercase">We propose the largest selection of prestige cars</h4>
+                        <p class="inset-2">We propose only the latest 
+car models for hiring and work with the most prestigious car brands 
+(Aston Martin, Audi, Bentley, BMW, Ferrari, Lamborghini, Maserati, 
+McLaren, Mercedes-Benz, Mini, Porsche, Land Rover, Jaguar and Rolls 
+Royce). We also propose a selection of unique supercars.
+                            Car Rental offers a bespoke and high-end car
+ rental service in many cities across the Europe.</p>
+                    </div>
+                    <div class="img-wrap img-wrap-md">
+                        <img src="index-3_data/page-4_img01.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Our cars-->
+
+        <!--Full width-->
+        <section>
+            <div class="row row-no-gutter">
+                <div class="col-sm-6 col-md-4">
+                    <div class="product">
+                        <img src="index-3_data/page-4_img02.jpg" alt="">
+                        <div class="product__cnt">
+                            <h5 class="uppercase">bmw m3</h5>
+                            <ul class="pricing-table">
+                                <li>Daily Rate : <span class="price strike text-primary">3485.99</span></li>
+                                <li>Special Price : <span class="price">2420.00</span></li>
+                            </ul>
+                            <span class="link"><a href="#">Continue</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="product">
+                        <img src="index-3_data/page-4_img03.jpg" alt="">
+                        <div class="product__cnt">
+                            <h5 class="uppercase">lexus gs 450h</h5>
+                            <ul class="pricing-table">
+                                <li>Daily Rate : <span class="price strike text-primary">2999.99</span></li>
+                                <li>Special Price : <span class="price">1599.00</span></li>
+                            </ul>
+                            <span class="link"><a href="#">Continue</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="product">
+                        <img src="index-3_data/page-4_img04.jpg" alt="">
+                        <div class="product__cnt">
+                            <h5 class="uppercase">McLaren 650S</h5>
+                            <ul class="pricing-table">
+                                <li>Daily Rate : <span class="price strike text-primary">3999.99</span></li>
+                                <li>Special Price : <span class="price">1899.00</span></li>
+                            </ul>
+                            <span class="link"><a href="#">Continue</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="product">
+                        <img src="index-3_data/page-4_img05.jpg" alt="">
+                        <div class="product__cnt">
+                            <h5 class="uppercase">Mercedes S550</h5>
+                            <ul class="pricing-table">
+                                <li>Daily Rate : <span class="price strike text-primary">2877.99</span></li>
+                                <li>Special Price : <span class="price">1745.00</span></li>
+                            </ul>
+                            <span class="link"><a href="#">Continue</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="product">
+                        <img src="index-3_data/page-4_img06.jpg" alt="">
+                        <div class="product__cnt">
+                            <h5 class="uppercase">Alfa Romeo 4C</h5>
+                            <ul class="pricing-table">
+                                <li>Daily Rate : <span class="price strike text-primary">2990.99</span></li>
+                                <li>Special Price : <span class="price">1599.00</span></li>
+                            </ul>
+                            <span class="link"><a href="#">Continue</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="product">
+                        <img src="index-3_data/page-4_img07.jpg" alt="">
+                        <div class="product__cnt">
+                            <h5 class="uppercase">ferrari california</h5>
+                            <ul class="pricing-table">
+                                <li>Daily Rate : <span class="price strike text-primary">4128.99</span></li>
+                                <li>Special Price : <span class="price">2799.00</span></li>
+                            </ul>
+                            <span class="link"><a href="#">Continue</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="product">
+                        <img src="index-3_data/page-4_img08.jpg" alt="">
+                        <div class="product__cnt">
+                            <h5 class="uppercase">lexus lfa</h5>
+                            <ul class="pricing-table">
+                                <li>Daily Rate : <span class="price strike text-primary">3264.99</span></li>
+                                <li>Special Price : <span class="price">2451.00</span></li>
+                            </ul>
+                            <span class="link"><a href="#">Continue</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="product">
+                        <img src="index-3_data/page-4_img09.jpg" alt="">
+                        <div class="product__cnt">
+                            <h5 class="uppercase">Honda NSX</h5>
+                            <ul class="pricing-table">
+                                <li>Daily Rate : <span class="price strike text-primary">2547.99</span></li>
+                                <li>Special Price : <span class="price">2114.00</span></li>
+                            </ul>
+                            <span class="link"><a href="#">Continue</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
+                    <div class="product">
+                        <img src="index-3_data/page-4_img10.jpg" alt="">
+                        <div class="product__cnt">
+                            <h5 class="uppercase">Aston Martin DB9</h5>
+                            <ul class="pricing-table">
+                                <li>Daily Rate : <span class="price strike text-primary">2677.99</span></li>
+                                <li>Special Price : <span class="price">1989.00</span></li>
+                            </ul>
+                            <span class="link"><a href="#">Continue</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End full-width-->
+
+        <!--Owl carousel-->
+        <section class="bg-primary text-center">
+            <div class="container-fluid inset-5">
+            <div class="owl-carousel row row-no-gutter bg-aside bg-aside-left owl-theme owl-loaded">
+                
+                
+            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2600px, 0px, 0px); transition: all 0s ease 0s; width: 7800px;"><div class="owl-item cloned" style="width: 1270px; margin-right: 30px;"><div class="item quote">
+                    <div class="col-md-6 pull-md-right well-md marker-1 text-md-left">
+                        <h2>clients say</h2>
+                        <h4 class="uppercase">What our clients say <br class="hidden-md"> about our services</h4>
+                        <div class="img-wrap">
+                            <img src="index-3_data/page-4_slide01.jpg" alt="">
+                        </div>
+                        <p class="text-left inset-2"><q>“I just wanted 
+to say thanks and tell you that my husband had a great time with the 
+Lamborghini! The staff was very professional and courteous every step of
+ the way.”</q></p>
+                        <p><cite>Cindy S.</cite></p>
+                    </div>
+                </div></div><div class="owl-item cloned" style="width: 1270px; margin-right: 30px;"><div class="item quote">
+                    <div class="col-md-6 pull-md-right well-md marker-1 text-md-left">
+                        <h2>clients say</h2>
+                        <h4 class="uppercase">What our clients say <br class="hidden-md"> about our services</h4>
+                        <div class="img-wrap">
+                            <img src="index-3_data/page-4_slide02.jpg" alt="">
+                        </div>
+                        <p class="text-left inset-2"><q>“The guys at 
+your company are amazing! Your service has added a great value to my 
+life. I love that I can jump to your site any time and have access to 
+support 24/7.”</q></p>
+                        <p><cite>Andrew Parent </cite></p>
+                    </div>
+                </div></div><div class="owl-item active" style="width: 1270px; margin-right: 30px;"><div class="item quote">
+                    <div class="col-md-6 pull-md-right well-md marker-1 text-md-left">
+                        <h2>clients say</h2>
+                        <h4 class="uppercase">What our clients say <br class="hidden-md"> about our services</h4>
+                        <div class="img-wrap">
+                            <img src="index-3_data/page-4_slide01.jpg" alt="">
+                        </div>
+                        <p class="text-left inset-2"><q>“I just wanted 
+to say thanks and tell you that my husband had a great time with the 
+Lamborghini! The staff was very professional and courteous every step of
+ the way.”</q></p>
+                        <p><cite>Cindy S.</cite></p>
+                    </div>
+                </div></div><div class="owl-item" style="width: 1270px; margin-right: 30px;"><div class="item quote">
+                    <div class="col-md-6 pull-md-right well-md marker-1 text-md-left">
+                        <h2>clients say</h2>
+                        <h4 class="uppercase">What our clients say <br class="hidden-md"> about our services</h4>
+                        <div class="img-wrap">
+                            <img src="index-3_data/page-4_slide02.jpg" alt="">
+                        </div>
+                        <p class="text-left inset-2"><q>“The guys at 
+your company are amazing! Your service has added a great value to my 
+life. I love that I can jump to your site any time and have access to 
+support 24/7.”</q></p>
+                        <p><cite>Andrew Parent </cite></p>
+                    </div>
+                </div></div><div class="owl-item cloned" style="width: 1270px; margin-right: 30px;"><div class="item quote">
+                    <div class="col-md-6 pull-md-right well-md marker-1 text-md-left">
+                        <h2>clients say</h2>
+                        <h4 class="uppercase">What our clients say <br class="hidden-md"> about our services</h4>
+                        <div class="img-wrap">
+                            <img src="index-3_data/page-4_slide01.jpg" alt="">
+                        </div>
+                        <p class="text-left inset-2"><q>“I just wanted 
+to say thanks and tell you that my husband had a great time with the 
+Lamborghini! The staff was very professional and courteous every step of
+ the way.”</q></p>
+                        <p><cite>Cindy S.</cite></p>
+                    </div>
+                </div></div><div class="owl-item cloned" style="width: 1270px; margin-right: 30px;"><div class="item quote">
+                    <div class="col-md-6 pull-md-right well-md marker-1 text-md-left">
+                        <h2>clients say</h2>
+                        <h4 class="uppercase">What our clients say <br class="hidden-md"> about our services</h4>
+                        <div class="img-wrap">
+                            <img src="index-3_data/page-4_slide02.jpg" alt="">
+                        </div>
+                        <p class="text-left inset-2"><q>“The guys at 
+your company are amazing! Your service has added a great value to my 
+life. I love that I can jump to your site any time and have access to 
+support 24/7.”</q></p>
+                        <p><cite>Andrew Parent </cite></p>
+                    </div>
+                </div></div></div></div><div class="owl-controls"><div class="owl-nav"><div class="owl-prev fa fa-angle-left" style=""></div><div class="owl-next fa fa-angle-right" style=""></div></div><div style="" class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div></div></div>
+            </div>
+        </section>
+        <!--End owl carousel-->
+    </main>
+
+    <!--========================================================
+                              FOOTER
+    =========================================================-->
+    <footer class="text-center">
+        <div class="container-fluid container-inset well-md relative">
+            <div class="row">
+                <div class="col-md-6 col-lg-5 inset-2 text-md-left">
+                    <h2>Contacts</h2>
+                    <address class="contact-info">
+                        <ul class="list text-left text-xs-center text-md-left">
+                            <li>
+                                <span class="icon icon-default icon-md material-icons-location_on"></span>
+                                My Company Glasgow D04 89GR
+                            </li>
+                            <li>
+                                <span class="icon icon-default icon-md material-icons-phone"></span>
+                                <a href="callto:#">800-2345-6789</a>
+                            </li>
+                            <li>
+                                <span class="icon icon-default icon-md material-icons-email"></span>
+                                <a href="mailto:#">info@demolink.org</a>
+                            </li>
+                            <li>
+                                <span class="icon icon-default icon-md material-icons-schedule"></span>
+                                7 Days a week from 9:00 am to 7:00 pm
+                            </li>
+                        </ul>
+                    </address>
+                    <ul class="inline-list">
+                        <li><a href="#" class="icon icon-default icon-sm fa-facebook"></a></li>
+                        <li><a href="#" class="icon icon-default icon-sm fa-twitter"></a></li>
+                        <li><a href="#" class="icon icon-default icon-sm fa-google-plus"></a></li>
+                    </ul>
+                    <div class="map-wrap">
+                        <div class="map">
+                            <div id="google-map" class="map_model" style="position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;" class="gm-style"><div style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: pan-x pan-y;" tabindex="0"><div style="z-index: 1; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 986; transform: matrix(1, 0, 0, 1, -134, -17);"><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: -512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: -512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: -512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="width: 42px; height: 60px; overflow: hidden; position: absolute; left: 37px; top: -14px; z-index: 46;"><img style="position: absolute; left: 0px; top: 0px; user-select: none; width: 42px; height: 60px; border: 0px none; padding: 0px; margin: 0px; max-width: none;" alt="" src="index-3_data/gmap_marker.png" draggable="false"></div><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div style="position: absolute; z-index: 986; transform: matrix(1, 0, 0, 1, -134, -17);"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: -512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: -512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: -512px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 986; transform: matrix(1, 0, 0, 1, -134, -17);"><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="index-3_data/vt_005.png"></div><div style="position: absolute; left: -256px; top: -512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="index-3_data/vt_002.png"></div><div style="position: absolute; left: 256px; top: -512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="index-3_data/vt_006.png"></div><div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="index-3_data/vt_008.png"></div><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="index-3_data/vt_003.png"></div><div style="position: absolute; left: 0px; top: -512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="index-3_data/vt_007.png"></div><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="index-3_data/vt_009.png"></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="index-3_data/vt_004.png"></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="index-3_data/vt_012.png"></div><div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="index-3_data/vt_011.png"></div><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="index-3_data/vt.png"></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="index-3_data/vt_010.png"></div></div></div></div><div style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;" class="gm-style-pbc"><p class="gm-style-pbt"></p></div><div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;"><div style="z-index: 4; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"><div style="width: 42px; height: 60px; overflow: hidden; position: absolute; opacity: 0.0001; cursor: pointer; touch-action: none; left: 37px; top: -14px; z-index: 46;" title=""><img style="position: absolute; left: 0px; top: 0px; user-select: none; width: 42px; height: 60px; border: 0px none; padding: 0px; margin: 0px; max-width: none;" alt="" src="index-3_data/gmap_marker.png" draggable="false"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div></div><iframe aria-hidden="true" tabindex="-1" style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: medium none;" frameborder="0"></iframe><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a style="position: static; overflow: visible; float: none; display: inline;" target="_blank" rel="noopener" href="https://maps.google.com/maps?ll=40.646197,-73.992407&amp;z=14&amp;t=m&amp;hl=fr&amp;gl=US&amp;mapclient=apiv3" title="Ouvrir cette zone dans Google&nbsp;Maps (dans une nouvelle fenêtre)"><div style="width: 66px; height: 26px; cursor: pointer;"><img style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px none; padding: 0px; margin: 0px;" alt="" src="index-3_data/google_white5.png" draggable="false"></div></a></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 300px; height: 180px; position: absolute; left: 168px; top: 297px;"><div style="padding: 0px 0px 10px; font-size: 16px; box-sizing: border-box;">Données cartographiques</div><div style="font-size: 13px;">Données cartographiques ©2020 Google</div><button style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; display: block; border: 0px none; margin: 0px; padding: 0px; position: absolute; cursor: pointer; user-select: none; top: 0px; right: 0px; width: 37px; height: 37px;" draggable="false" title="Fermer" aria-label="Fermer" type="button" class="gm-ui-hover-effect"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%206.41L17.59%205%2012%2010.59%206.41%205%205%206.41%2010.59%2012%205%2017.59%206.41%2019%2012%2013.41%2017.59%2019%2019%2017.59%2013.41%2012z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="pointer-events: none; display: block; width: 13px; height: 13px; margin: 12px;"></button></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 278px; bottom: 0px; width: 193px;"><div draggable="false" style="user-select: none; height: 14px; line-height: 14px;" class="gm-style-cc"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="text-decoration: none; cursor: pointer; display: none;">Données cartographiques</a><span>Données cartographiques ©2020 Google</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Données cartographiques ©2020 Google</div></div><div class="gmnoprint gm-style-cc" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 165px; bottom: 0px;" draggable="false"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);" href="https://www.google.com/intl/fr_US/help/terms_maps.html" target="_blank" rel="noopener">Conditions d'utilisation</a></div></div><button style="background: rgb(255, 255, 255) none repeat scroll 0% 0%; display: none; border: 0px none; margin: 10px; padding: 0px; position: absolute; cursor: pointer; user-select: none; top: 0px; right: 0px;" draggable="false" title="Passer en plein écran" aria-label="Passer en plein écran" type="button"></button><div draggable="false" style="user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;" class="gm-style-cc"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_blank" rel="noopener" title="Signaler à Google une erreur dans la carte routière ou les images" dir="ltr" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;" href="https://www.google.com/maps/@40.646197,-73.9924068,14z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3">Signaler une erreur cartographique</a></div></div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" style="margin: 10px; user-select: none; position: absolute; bottom: 127px; right: 40px;" draggable="false" controlwidth="40" controlheight="113"><div class="gmnoprint" style="position: absolute; left: 0px; top: 32px;" controlwidth="40" controlheight="81"><div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 40px; height: 81px;"><button style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; display: block; border: 0px none; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;" draggable="false" title="Zoom avant" aria-label="Zoom avant" type="button" class="gm-control-active"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23333%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23111%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A"></button><div style="position: relative; overflow: hidden; width: 30px; height: 1px; margin: 0px 5px; background-color: rgb(230, 230, 230); top: 0px;"></div><button style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; display: block; border: 0px none; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;" draggable="false" title="Zoom arrière" aria-label="Zoom arrière" type="button" class="gm-control-active"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A"></button></div></div><div style="position: absolute; left: 20px; top: 0px;"></div><div class="gmnoprint" controlwidth="40" controlheight="40" style="display: none; position: absolute;"><div style="width: 40px; height: 40px;"><button style="background: rgb(255, 255, 255) none repeat scroll 0% 0%; display: none; border: 0px none; margin: 0px 0px 32px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 40px; height: 40px; top: 0px; left: 0px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px;" draggable="false" title="Faire pivoter la carte à 90°" aria-label="Faire pivoter la carte à 90°" type="button" class="gm-control-active"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A"></button><button style="background: rgb(255, 255, 255) none repeat scroll 0% 0%; display: block; border: 0px none; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 40px; height: 40px; top: 0px; left: 0px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px;" draggable="false" title="Incliner la carte" aria-label="Incliner la carte" type="button" class="gm-tilt gm-control-active"><img style="width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A"><img style="width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A"><img style="width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A"></button></div></div></div></div></div><div style="background-color: white; font-weight: 500; font-family: Roboto, sans-serif; padding: 15px 25px; box-sizing: border-box; top: 5px; border: 1px solid rgba(0, 0, 0, 0.12); border-radius: 5px; left: 50%; max-width: 375px; position: absolute; transform: translateX(-50%); width: calc(100% - 10px); z-index: 1;"><div><img alt="" src="index-3_data/google_gray.svg" style="padding: 0px; margin: 0px; border: 0px none; height: 17px; vertical-align: middle; width: 52px; user-select: none;" draggable="false"></div><div style="line-height: 20px; margin: 15px 0px;"><span style="color: rgba(0, 0, 0, 0.87); font-size: 14px;">Impossible de charger Google&nbsp;Maps correctement sur cette page.</span></div><table style="width: 100%;"><tr><td style="line-height: 16px; vertical-align: middle;"><a href="https://developers.google.com/maps/documentation/javascript/error-messages?utm_source=maps_js&amp;utm_medium=degraded&amp;utm_campaign=keyless#api-key-and-billing-errors" target="_blank" rel="noopener" style="color: rgba(0, 0, 0, 0.54); font-size: 12px;">Ce site Web vous appartient&nbsp;?</a></td><td style="text-align: right;"><button class="dismissButton">OK</button></td></tr></table></div></div>
+                            <ul class="map_locations">
+                                <li data-x="-73.9874068" data-y="40.643180">
+                                    <p> 9870 St Vincent Place, Glasgow, DC 45 Fr 45. <span>800 2345-6789</span></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="copyright wow fadeInUp" data-wow-delay=".5s">
+                        Car Rentals &nbsp;© <span id="copyright-year">2020</span>.
+                        <a href="https://livedemo00.template-help.com/wt_57633/index-5.html">&nbsp;Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="index-3_data/script.js"></script><script src="index-3_data/jquery_006.js"></script><script src="index-3_data/jquery_005.js"></script><script src="index-3_data/tmstickup.js"></script><script src="index-3_data/jquery_003.js"></script><script src="index-3_data/superfish.js"></script><script src="index-3_data/jquery.js"></script><script src="index-3_data/js"></script><script src="index-3_data/jquery_004.js"></script><script src="index-3_data/owl.js"></script><meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+<!-- begin olark code -->
+    <script data-cfasync="false" type="text/javascript">/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+        f[z]=function(){
+            (a.s=a.s||[]).push(arguments)};var a=f[z]._={
+        },q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+            f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+            0:+new Date};a.P=function(u){
+            a.p[u]=new Date-a.p[0]};function s(){
+            a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+            hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+            return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+            b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+            b.contentWindow[g].open()}catch(w){
+            c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+            var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+            b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+        loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+    /* custom configuration goes here (www.olark.com/documentation) */
+    olark.identify('7830-582-10-3714');/*]]>*/</script><noscript><a href="https://www.olark.com/site/7830-582-10-3714/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="https://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
+<!-- end olark code -->
+<!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager -->
+<a href="#" id="toTop" class="toTop fa-angle-up" style="display: inline;"></a><div class="rd-mobilemenu"><ul class="rd-mobilemenu_ul"><li><a href="https://livedemo00.template-help.com/wt_57633/">Home</a></li><li><a href="https://livedemo00.template-help.com/wt_57633/index-1.html">About</a></li><li><a href="https://livedemo00.template-help.com/wt_57633/index-2.html">Services</a></li><li class="active"><a href="https://livedemo00.template-help.com/wt_57633/index-3.html" class="rd-with-ul">Cars<span class="rd-submenu-toggle"></span></a><ul class="rd-mobilemenu_submenu" style="display: none;">
+                            <li><a href="#">Convertibles</a></li>
+                            <li><a href="#">SUVs</a></li>
+                            <li><a href="#">Luxury</a>
+                                <ul>
+                                    <li><a href="#">Mercedes</a></li>
+                                    <li><a href="#">Lexus</a></li>
+                                    <li><a href="#">BMW</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Exotic</a></li>
+                        </ul></li><li><a href="https://livedemo00.template-help.com/wt_57633/index-4.html">Contacts</a></li></ul></div><div class="rd-mobilepanel"><button class="rd-mobilepanel_toggle"><span></span></button><h2 class="rd-mobilepanel_title">Cars</h2></div><script type="text/javascript" id="">(function(){var b=document.location.search.split("aff\x3d")[1];if(b){var d=document.querySelectorAll("a"),c;for(c=0;c<d.length;c++){var a=d[c];0==a.href.indexOf("https://www.templatemonster.com")&&(0<a.href.indexOf("?")?a.href=a.href+"\x26aff\x3d"+b:a.href=a.href+"?aff\x3d"+b)}}b=document.location.search.split("i\x3d")[1];var e=document.location.search.split("pr_code\x3d")[1];if(b&&e)for(b=b.split("\x26")[0],d=document.querySelectorAll("a"),c=0;c<d.length;c++)a=d[c],0==a.href.indexOf("https://www.templatemonster.com")&&
+(a.href="https://www.templatehelp.com/preset/cart.php?act\x3dadd\x26templ\x3d"+b+"\x26pr_code\x3d"+e)})();</script>
+<iframe data-olark="true" aria-hidden="true" title="empty" style="width: 0px; height: 0px; position: absolute; left: 0px; bottom: 0px; border: medium none;"></iframe></body></html>
